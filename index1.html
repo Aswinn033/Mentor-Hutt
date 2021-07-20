@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mentor Hutt</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!-- nav -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index1.html">Mentor Hutt</a>
+      </div>
+    </div>
+  </nav>
+  <!-- ./nav -->
+
+  <!-- main -->
+  <main class="container">
+  <h1 class="text-center">Welcome to Mentor Hutt! <br><small>The network for brighter minds !!</small></h1>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Login to be a part of future stars and mentors</h4>
+
+        <!-- login form -->
+        <form method="post" action="../Mentor Hutt/guest/sign_in_action.php">
+          <div class="form-group">
+            <input class="form-control" type="text" name="email" placeholder="Email">
+          </div>
+
+          <div class="form-group">
+            <input class="form-control" type="password" name="password" placeholder="Password">
+          </div>
+
+          <div class="form-group">
+            <input class="btn btn-success" type="submit" name="btnsubmit" value="Login">
+          </div>
+        </form>
+        <!-- ./login form -->
+      </div>
+      <div class="col-md-6">
+        <h4>Don't have an account yet? Register for success based network!</h4>
+
+        <!-- register form -->
+        <form method="post" action="../Mentor Hutt/guest/signup_action.php">
+          <div class="form-group">
+            <input class="form-control" type="text" name="firstname" placeholder="First name">
+          </div>
+
+          <div class="form-group">
+            <input class="form-control" type="text" name="lastname" placeholder="Last name">
+          </div>
+
+          <div class="form-group">
+            <input class="form-control" type="password" name="email" placeholder="Email">
+          </div>
+
+          <div class="form-group">
+            <input class="form-control" type="password" name="password" placeholder="Password">
+          </div>
+
+          <div class="form-group">
+            <input class="btn btn-success" type="submit" name="register" value="Register">
+          </div>
+        </form>
+        <!-- ./register form -->
+      </div>
+    </div>
+  </main>
+  <!-- ./main -->
+
+  <!-- footer -->
+  <footer class="container text-center">
+    <ul class="nav nav-pills pull-right">
+      <li>Some areas of this project are made by opensourse material. If any of the element violate<br>
+      copyright please <a href="#"">Contact Us</a>.</li>
+    </ul>
+  </footer>
+  <!-- ./footer -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
